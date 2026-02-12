@@ -21,7 +21,7 @@ export default function App() {
         
        
         <View style={styles.topBar}>
-          <Text style={styles.topBarText}>CADASTRO</Text>
+          <Text style={styles.topBarText}>ESQUECEU A SENHA</Text>
         </View>
 
         <View style={styles.form}>
@@ -40,7 +40,7 @@ export default function App() {
             <Button
               title="Enviar"
               color="#4CAF50"
-              onPress={() => showAlert('Cadastro pressionado')}
+              onPress={() => showAlert('Botão pressionado')}
             />
           </View>
 
